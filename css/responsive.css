@@ -1,0 +1,534 @@
+@media screen and (max-width:767px) {
+  /* SP用 */
+
+  body{
+    font-size: 18px;
+  }
+
+  /* header */
+
+  .header{
+    height: 72px;
+  }
+
+  .header-container{
+    padding: 25px 15px;
+  }
+
+  .header-logo{
+    max-width: 104px;
+  }
+
+  .header-gnav{
+    display: none;
+  }
+
+  .header-gnav-btn{
+    display: block;
+    width: 30px;
+    height: 100%;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .header-gnav-bar{
+    position: absolute;
+    left: 0;
+    top: calc(50% - 6px);
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+  }
+
+  .header-gnav-bar.m-top{
+    transform: translateY(-12px);
+    width: 22px;
+  }
+
+  .header-gnav-bar.m-bottom{
+    transform: translateY(10px);
+    width: 23px;
+  }
+
+  /* footer */
+
+  footer{
+    padding: 70px 50px 23px 50px;
+  }
+
+  .footer-container{
+    max-width: 330px;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: content-box;
+    margin-bottom: 23px;
+  }
+
+  .footer-gnav{
+    text-align: center;
+    height: 310px;
+  }
+
+  .footer-list{
+    display: block;
+  }
+
+  .footer-item:not(:last-child) {
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23px;
+  }
+
+  .footer-item{
+    margin-right: 0px;
+  }
+
+  .footer-item > a{
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+
+  nav li:not(:nth-child(1),:nth-child(5))::before {
+    content: none;
+  }
+
+  .footer-copyright{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    width: 235px;
+    margin: 0 auto;
+  }
+
+  /* fv section */
+
+  .fv-container{
+    max-width: 327px;
+    margin: 0 auto;
+    margin-top: 75px;
+    align-items: center;
+    box-sizing: content-box;
+  }
+
+  .fv-area{
+    width: 327px;
+  }
+
+  .fv-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fv-copy{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 255px;
+    margin: 0 auto;
+  }
+
+  .fv-description{
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 201px;
+    margin-top: 11px;
+    margin-bottom: 55px;
+  }
+
+  .fv-pic{
+    width: 325px;
+    margin-top: 20px;
+  }
+
+  .fv-section{
+    background-size: 1440px;
+    height: 747px;
+  }
+
+  .scroll{
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    position: absolute;
+    top: -37px;
+    right: 0.2px;
+  }
+
+  /* about section */
+
+  .about-container{
+    max-width: 327px;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: content-box;
+    padding-top: 93px;
+    padding-bottom: 99px;
+  }
+
+  .about-area{
+    width: 330px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-section-title {
+    padding-right: 2px;
+  }
+
+
+  .text-area{
+    max-width: 325px;
+  }
+
+  .about-title{
+    font-size: 20px;
+  }
+
+  .about-detail{
+    font-size: 14px;
+    line-height: 170%;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    letter-spacing: 0.11em;
+  }
+
+  .about-container-img{
+    width: 325px;
+    height: 416px;
+  }
+
+  /* feature section */
+
+  .feature-container{
+    max-width: 327px;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: content-box;
+    padding-top: 126px;
+    padding-bottom: 66px;
+  }
+
+  .feature-area{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+  }
+  .fe{
+    letter-spacing: 0.1em;
+  }
+
+  h2::after {
+    right: -82px;
+  }
+  .section-subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    padding-right: 6px;
+  }
+
+  .feature{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-items{
+    padding: 0 16px;
+
+  }
+
+  .a{
+    padding-top: 74px;
+  }
+
+  .feature-img{
+    width: 295px;
+    height: 233px;
+    margin-bottom: 1px;
+  }
+
+  .feature-sub-title{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    padding-top: 0px;
+    letter-spacing: 0.1em;
+  }
+
+  .feature-detail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    padding-top: 19px;
+    letter-spacing: 0.1em;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .feature:not(:last-child) {
+    margin-bottom: 90px;
+  }
+
+  .b, .d{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* faq section */
+
+  .faq-container{
+    max-width: 296px;
+    margin: auto;
+    align-items: center;
+    box-sizing: content-box;
+    padding-top: 123px;
+    padding-bottom: 66px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .faq-area{
+    width: 288px;
+    display: flex;
+    align-items: center;
+  }
+
+  .faq{
+    transform: translate(-82px, -9px);
+  }
+
+  .faq::after {
+    right: -84px;
+    top: 9px;
+  }
+
+  .faqt{
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .faq-sub{
+    letter-spacing: 0.1em;
+    padding-right: 0px;
+    padding-top: 2px;
+  }
+
+  .qa{
+    max-width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .qa{
+    margin-top: 0px;
+  }
+
+  .qa:first-child {
+    margin-top: 31px;
+  }
+
+  .question{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+  }
+
+  .answer{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.114em;
+    margin-top: 21px;
+  }
+
+  .qa >p:nth-of-type(1)::after {
+    width: 20px;
+    top: 40px;
+  }
+
+  .qa:not(:first-child)::before{
+    width: 20px;
+    top: 49%;
+  }
+
+/* device section */
+
+  .device-container{
+    max-width: 327px;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: content-box;
+    padding-top: 123px;
+    padding-bottom: 148px;
+  }
+
+  .device-area{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .device-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 76px;
+  }
+
+  .device:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .device{
+    width: 260px;
+    height: 190px;
+  }
+
+  .dev{
+    padding-right: 0px;
+    letter-spacing: 0.1em;
+  }
+
+  .device-item{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    padding-top: 10px;
+    letter-spacing: 0.1em;
+  }
+
+  .bg-border{
+    width: 375px;
+    height: 610px;
+    position: absolute;
+    left: 0px;
+    top: 320px;
+  }
+
+  /* btm section */
+
+  .btm-container{
+    max-width: 330px;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: content-box;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .btm-area{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+  }
+
+  .btm-title{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .btm-logo-img{
+    width: 104px;
+    height: 20px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+  }
+
+  .btm-copy{
+    padding-top: 6px;
+    padding-left: 0px;
+  }
+
+  .two{
+    margin-top: 61px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .btm-img{
+    width: 325px;
+    height: 325px;
+    margin-left: 2px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+
+  #device-section:target::before {
+    display: none;
+  }
+
+  #feature-section:target::before {
+    display: none;
+  }
+
+  #faq-section:target::before {
+    display: none;
+  }
+
+  #device-section:target::before {
+    display: none;
+  }
+
+  .fv-container{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .fv-pic{
+    padding: 0 20px;
+  }
+
+  .about-container{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .feature-img:nth-child(odd) {
+    margin-right: 5%;
+  }
+
+  .feature-img:nth-child(even) {
+    margin-left: 5%;
+  }
+
+  .faq-container{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .qa::after {
+    width: 100%;
+  }
+
+  .question-area{
+    max-width: 100%;
+  }
+
+  .device-container{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .btm-container{
+    padding-right: 70px;
+    padding-left: 30px;
+  }
+
+}
